@@ -1,0 +1,21 @@
+{"editor.tokenColorCustomizations": {
+    "textMateRules": [
+        {
+            "scope": [
+                "comment"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#ffff35" // change color only for the comment text
+            }
+        }
+        // {
+        //   "scope": ["punctuation.definition.comment"],
+        //   "settings": {
+        //     "fontStyle": "italic",
+        //     "foreground": "#ffff35" // change color only for the punctuation
+        //   }
+        // }
+    ]
+},
+}
