@@ -15,10 +15,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
-  <body>
+  <body data-body>
     <!-- Секція Header -->
     <header class="header">
       <div class="container header__nav">
@@ -67,7 +67,7 @@
         </div>
       </section>
       <!-- Секція Benefits -->
-      <section class="benefits section">
+      <section class="benefits">
         <div class="container">
           <h2 class="benefit__title visually-hidden">Достоинства компании</h2>
           <ul class="benefits__list list">
@@ -119,7 +119,7 @@
         </div>
       </section>
       <!-- Секція About -->
-      <section class="about section">
+      <section class="about">
         <div class="container">
           <h2 class="about__title">Чем мы занимаемся</h2>
           <ul class="about__list card-set list">
@@ -154,7 +154,7 @@
         </div>
       </section>
       <!-- Секція Team -->
-      <section class="team section">
+      <section class="team">
         <div class="container">
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list card-set list">
@@ -338,7 +338,7 @@
         </div>
       </section>
       <!-- Секція Clients -->
-      <section class="clients section">
+      <section class="clients">
         <div class="container">
           <h2 class="clients__title">Постоянные клиенты</h2>
           <ul class="clients__list list">
@@ -510,12 +510,7 @@
           </label>
           <button class="button__submit button" type="submit">Отправить</button>
         </form>
-        <button
-          class="button__close button"
-          type="button"
-          aria-label="modal-close"
-          data-modal-close
-        >
+        <button class="button__close" type="button" aria-label="modal-close" data-modal-close>
           <svg class="button__close-icon" width="18" height="18">
             <use href="./images/icons.svg#modal_close"></use>
           </svg>

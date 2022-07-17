@@ -1,21 +1,23 @@
-{"editor.tokenColorCustomizations": {
-    "textMateRules": [
+{
+    "liveSassCompile.settings.formats": [
         {
-            "scope": [
-                "comment"
-            ],
-            "settings": {
-                "fontStyle": "italic",
-                "foreground": "#ffff35" // change color only for the comment text
-            }
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css"
+        },
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/css"
         }
-        // {
-        //   "scope": ["punctuation.definition.comment"],
-        //   "settings": {
-        //     "fontStyle": "italic",
-        //     "foreground": "#ffff35" // change color only for the punctuation
-        //   }
-        // }
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "/**/node_modules/**",
+        "/.vscode/**"
+    ],
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%",
+        "last 2 versions"
     ]
-},
 }
